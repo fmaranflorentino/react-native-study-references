@@ -30,6 +30,8 @@ module.exports = {
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
+    __DEV__: 'readonly'
+    React$Node: 'readonly',
   },
   parser: 'babel-eslint',
   parserOptions: {
